@@ -26,7 +26,8 @@
 }
 
 .banner-left h2 {
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: 600;
     color: skyblue;
 }
 
@@ -44,6 +45,80 @@
     background: skyblue;
     cursor: pointer;
     color: #f9f9ff;
-    transition: all 0.5s;
+}
 
+.about-me {
+    display: flex;
+    padding-top: 120px;
+}
+
+.about-banner-left {
+    width: 50%;
+}
+
+.about-banner-right {
+    padding-left: 90px;
+    padding-right: 10px;
+}
+
+.about-banner-right h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+
+.about-banner-right h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    color: skyblue;
+
+}
+
+.about-banner-right p {
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.about-me-end {
+    text-decoration: none;
+    background: skyblue;
+    padding: 15px 40px;
+    color: #fff;
+}
+
+.service-area {
+    margin-top: 30px;
+}
+
+.service-conter-ares {
+    text-align: center;
+}
+
+.service-conter-ares h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em !important;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.service-conter-ares p {}
+
+.service-items {
+    background-color: white;
+}
+
+.fast-three-items {
+    display: flex;
+    margin-top: 80px;
+    padding: 0px 50px;
+    margin: 0 40px;
+    margin-top: 80px;
+}
+
+.design-area {
+    text-align: center;
 }
