@@ -1,0 +1,20 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header-aria {
+    display: flex;
+    background-color: gray;
+}
+
+.half-with {
+    width: 40%;
+    padding: 10px 20px;
+}
+
+.half-with h2 {
+    color: brown;
+}
+
+.half-with img {}
