@@ -31,6 +31,14 @@
     color: skyblue;
 }
 
+.banner-border-area {
+    border-left: solid;
+    border-color: skyblue;
+    padding-left: 15px;
+    border-image-slice: 1%;
+
+}
+
 .banner-right {
     width: 50%;
 }
@@ -50,6 +58,8 @@
 .about-me {
     display: flex;
     padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .about-banner-left {
@@ -121,4 +131,6 @@
 
 .design-area {
     text-align: center;
+    width: auto;
+    padding-right: 10px;
 }
