@@ -100,7 +100,8 @@
 }
 
 .service-area {
-    margin-top: 30px;
+    padding: 80px 0;
+    background-color: #f9f9ff;
 }
 
 .service-conter-ares {
@@ -117,20 +118,69 @@
 
 .service-conter-ares p {}
 
-.service-items {
-    background-color: white;
-}
+.service-items {}
 
 .fast-three-items {
     display: flex;
-    margin-top: 80px;
-    padding: 0px 50px;
     margin: 0 40px;
     margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 .design-area {
     text-align: center;
-    width: auto;
-    padding-right: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 60px;
+    margin-right: 35px;
+    margin-bottom: 40px;
+    transition: 0.5s;
+    box-shadow: 6px 8px 10px skyblue;
+}
+
+.design-area:hover {
+    background-color: skyblue;
+    color: #fff;
+}
+
+.development-area {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 60px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+    box-shadow: 6px 8px 10px tomato;
+}
+
+.development-area:hover {
+    background-color: tomato;
+    color: #fff;
+}
+
+.marketing-area {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 60px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+    box-shadow: 6px 8px 10px cyan;
+}
+
+.marketing-area:hover {
+    background-color: cyan;
+    color: #fff;
+}
+
+.service-design {
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
 }
