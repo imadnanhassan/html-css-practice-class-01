@@ -175,11 +175,24 @@
     color: #fff;
 }
 
-.service-design {
+.design-area h3 {
     font-size: 20px;
     padding-bottom: 30px;
     font-weight: 600;
 }
+
+.development-area h3 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.marketing-area h3 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
 
 footer {
     text-align: center;
